@@ -251,7 +251,7 @@ a {
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
-    background-image: url('../Mask/Image/logo-mensaje.png');
+    background-image: url('../Mask/Imagecopia/logo-mensaje.png');
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -292,19 +292,19 @@ a {
 }
 
 .footer-image.facebook {
-    background-image: url('../Mask/Image/logo-facejgr.png');
+    background-image: url('../Mask/Imagecopia/logo-facejgr.png');
 }
 
 .footer-image.instagram {
-    background-image: url('../Mask/Image/log-instjgr.png');
+    background-image: url('../Mask/Imagecopia/log-instjgr.png');
 }
 
 .footer-image.github {
-    background-image: url('../Mask/Image/github-logo.png');
+    background-image: url('../Mask/Imagecopia/github-logo.png');
 }
 
 .footer-image.twitter {
-    background-image: url('../Mask/Image/t-logo.png');
+    background-image: url('../Mask/Imagecopia/t-logo.png');
 }
 
 .container {
