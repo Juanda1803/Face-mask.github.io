@@ -1,6 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
     background: white;
 }
 
@@ -13,6 +13,7 @@ h1 {
     padding: 80px 40px;
     display: inline-block;
     align-items: center;
+    color: white;
 }
 
 h1,
@@ -25,27 +26,32 @@ h6 {
     font-weight: 400px;
 }
 
+h2 {
+    padding: 40px;
+    font-size: 40px;
+}
+
 strong {
     color: #2196f3;
 }
 
 li {
     display: flex;
-    border: 2px solid #2196f3;
-    border-radius: 5px;
     padding: 5px;
     background: black;
 }
 
 a {
-    font-size: 20px;
+
     text-decoration: none;
-    color: #2196f3;
+    color: white;
 }
 
 .options {
     display: flex;
     justify-content: space-evenly;
+    justify-content: flex-end;
+    flex-direction: row;
     width: 800px;
     font-weight: 600;
     align-items: center;
@@ -59,7 +65,7 @@ a {
 .hero-article {
     margin: 0;
     display: flex;
-    background-color: #8c4966;
+    background-color: #1a2127;
     width: inherit;
 }
 
@@ -67,13 +73,13 @@ a {
     display: flex;
 }
 
-.header-div {
-    margin: 0;
-    background-image: url('image/face-mask/diente.jpg');
-    background-size: contain;
-    height: 80px;
-    display: flex;
+.header {
+    background: #000000;
 
+}
+
+.header-div {
+    display: flex;
 }
 
 .header-image {
@@ -85,14 +91,202 @@ a {
 }
 
 .footer {
-    background: #1b2127;
+    background: #000000;
     display: flex;
 }
 
+.footer img {
+    vertical-align: middle;
+}
+
+.footer-image-platzi {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.footer-image {
+    margin: 0 auto;
+    background: #1b2127;
+    display: flex;
+    width: inherit;
+    color: white;
+}
+
+.estilos {
+    background: white;
+}
+
+.desing {
+    background: white;
+    margin: 0 auto;
+}
+
+
+.desing-man figure {
+    margin: 0;
+}
+
+.desing-man {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 10px;
+    width: 480px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f4fbff;
+}
+
+.desing-detail {
+    margin: 20px 40px;
+    margin-top: -30px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    color: #056fff;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.desing-description {
+    text-align: left;
+    color: #000000;
+}
+
+.desing-man img {
+    width: 480px;
+    height: 200px;
+
+}
+
+.estilos-tittle {
+    color: red;
+}
+
+.estilos-tittleh {
+    color: royalblue;
+}
+
+.estilos-tittlem {
+    color: palevioletred;
+}
+
+.contact {
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    width: inherit;
+    justify-content: flex-end;
+}
+
+.social-link {
+    margin: 0 20px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    vertical-align: middle;
+
+}
+
+.social-link.facebook {
+    background-image: url('../Mask/Image/logo-facebook.png');
+}
+
+.social-link.whatsapp {
+    background-image: url('../Mask/Image/logo-what.png');
+}
+
+.social-link.number {
+    display: contents;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../Mask/Image/logo-mensaje.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email {
+    width: inherit;
+    padding: 0 20px;
+}
+
+.form-email-tittle {
+    padding-left: 10px;
+}
+
+.footer-p {
+    width: 120px;
+    color: white;
+    padding-left: 20px;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: inherit;
+}
+
+.footer-image {
+    margin: 0px 10px;
+    display: flex;
+    width: 370px;
+    height: 50px;
+    background-size: 50px 50px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+}
+
+.footer-image.facebook {
+    background-image: url('../Mask/Image/logo-facejgr.png');
+}
+
+.footer-image.instagram {
+    background-image: url('../Mask/Image/log-instjgr.png');
+}
+
+.footer-image.github {
+    background-image: url('../Mask/Image/github-logo.png');
+}
+
+.footer-image.twitter {
+    background-image: url('../Mask/Image/t-logo.png');
+}
+
 .container {
-    border: 1px solid red;
     width: 1000px;
-    display: inherit;
+    display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     flex-wrap: inherit;

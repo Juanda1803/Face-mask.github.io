@@ -6,6 +6,7 @@
     <title>Face Mask</title>
     <link rel="icon" href="Image/logo.jpeg" type="jpeg">
     <link rel="stylesheet" href="mask.css">
+    <link rel="stylesheet" href="created.html">
 </head>
 
 <body>
@@ -18,10 +19,10 @@
                 </figure>
                 <nav class="options">
                     <li>
-                        <a href="#Diseñalo">Diseñalo</a>
+                        <a href="#Estilos" target="blanck">Estilos</a>
                     </li>
                     <li>
-                        <a href="#Reguistrate">Registro</a>
+                        <a href="#Registrate">Registro</a>
                     </li>
                     <li>
                         <a href="#Contacto">Contacto</a>
@@ -40,17 +41,58 @@
             </article>
         </div>
     </section>
-    <section id="Registrate">
-        <article>
-
-        </article>
-    </section id>
-    <input type="text">
-    <button>Enviar</button>
+    <section id="Estilos" class="desing">
+        <h1 class="estilos-tittle">Tipos
+            de tabocas</h1>
+        <h2 class="estilos-tittleh">Hombre</h2>
+        <div class="container">
+            <article class="desing-man">
+                <figure>
+                    <img class="desing-image" src="image/face-mask/huason.jpeg" alt="">
+                </figure>
+                <div class="desing-detail">
+                    <h3 class="desing-tittle">Dientes</h3>
+                    <p class="desing-description">Contiene doble capa, esta echo de tela y es ideal para la proteccion
+                        del
+                        virus.</p>
+                </div>
+            </article>
+            <h2 class="estilos-tittlem">Mujer</h2>
+            <article class="desing-man">
+                <figure>
+                    <img class="desing-image" src="image/face-mask/doblehead.jpeg" width="260" height="160" alt="">
+                </figure>
+            </article>
+        </div>
+    </section>
+    <section class="contact" id="Contacto">
+        <div class="container">
+            <form action="/suscripcion/" class="form-email">
+                <h3 class="form-email-tittle">Contacto</h3>
+                <input type="email" placeholder="Dejame tu email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://www.facebook.com/edgarantonio.gonzalezacevedo" class="social-link facebook"></a>
+                <a href="https://www.whatsapp.com" class="social-link whatsapp"></a>
+                <a class="social-link number" href="#">3045897777</a>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
-        <figure>
-            <img src="Image/logojgr.jpeg" width="120" height="65" alt="LOGO">
-        </figure>
+        <div class="container">
+            <div class="footer-div">
+                <p class="footer-p">Desarollado por</p>
+                <div class="footer-image">
+                    <a href="https://www.facebook.com/profile.php?id=100045366872392" class="footer-image facebook"></a>
+                    <a href="https://www.instagram.com/juandagoro1803/?hl=es-la" class="footer-image instagram"></a>
+                    <a href="https://github.com/juanda103" class="footer-image github"></a>
+                    <a href="https://twitter.com/Juan80604889" class="footer-image twitter"></a>
+                </div>
+            </div>
+            <p><img class="footer-image-platzi" src="Image/logoplatzi.png" width="70" height="70" alt="LOGO"></p>
+
+        </div>
     </footer>
     <script src="mask.js"></script>
 </body>
